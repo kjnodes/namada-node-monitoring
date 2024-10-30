@@ -3,7 +3,7 @@ groups:
     rules:
 
     - alert: NotInSync
-      expr: cometbft_blocksync_syncing != 0
+      expr: namada_tm_blocksync_syncing != 0
       for: 1m
       labels:
         severity: minor
@@ -11,7 +11,7 @@ groups:
         description: 'Node is not in sync.'
 
     - alert: TooFewPeers
-      expr: cometbft_p2p_peers < 2
+      expr: namada_tm_p2p_peers < 2
       for: 5m
       labels:
         severity: major
@@ -19,7 +19,7 @@ groups:
         description: 'The number of connected P2P peers has been below the defined threshold in the last 5 minutes.'
 
     - alert: StalledBlocks
-      expr: increase(cometbft_consensus_latest_block_height[5m]) == 0
+      expr: increase(namada_tm_consensus_latest_block_height[5m]) == 0
       labels:
         severity: critical
       annotations:
