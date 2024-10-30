@@ -99,7 +99,7 @@ receivers:
 
 ### 2. Configure Prometheus
 
-Set up Prometheus by specifying the `IP` address and `ports` for your node services. Modify the `YOUR_NODE_IP:COMET_PORT` and `YOUR_NODE_IP:GETH_PORT` in the configuration file:
+Set up Prometheus by specifying the `IP` address and `ports` for your node services. Modify the `NODE_IP` and `METRIC_PORT` in the configuration file:
 
 ```bash
 vim $HOME/namada-node-monitoring/prometheus/prometheus.yml

@@ -23,6 +23,6 @@ scrape_configs:
     metrics_path: /metrics
     static_configs:
       - targets:
-          - YOUR_NODE_IP:PORT  # for example 1.2.3.4:26766
+          - NODE_IP:METRIC_PORT  # for example 1.2.3.4:26766
         labels:
           instance: namada
