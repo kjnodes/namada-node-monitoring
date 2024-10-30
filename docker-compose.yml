@@ -3,7 +3,7 @@ volumes:
   grafana_data: {}
 
 networks:
-  story-monitoring:
+  namada-monitoring:
 
 services:
   prometheus:
@@ -24,7 +24,7 @@ services:
     ports:
       - 9090:9090
     networks:
-      - story-monitoring
+      - namada-monitoring
     restart: always
 
   # default login credentials: admin/admin
@@ -38,14 +38,14 @@ services:
     ports:
       - 9999:3000
     networks:
-      - story-monitoring
+      - namada-monitoring
     restart: always
 
   alertmanager:
     image: prom/alertmanager:latest
     container_name: alertmanager
     networks:
-      - story-monitoring
+      - namada-monitoring
     ports:
       - 9093:9093
     volumes:

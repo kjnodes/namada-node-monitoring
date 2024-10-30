@@ -10,7 +10,7 @@ groups:
       annotations:
         description: 'Node is not in sync.'
 
-    - alert: CometTooFewPeers
+    - alert: TooFewPeers
       expr: cometbft_p2p_peers < 2
       for: 5m
       labels:
@@ -18,23 +18,8 @@ groups:
       annotations:
         description: 'The number of connected P2P peers has been below the defined threshold in the last 5 minutes.'
 
-    - alert: GethTooFewPeers
-      expr: p2p_peers < 2
-      for: 5m
-      labels:
-        severity: major
-      annotations:
-        description: 'The number of connected P2P peers has been below the defined threshold in the last 5 minutes.'
-
-    - alert: CometStalledBlocks
+    - alert: StalledBlocks
       expr: increase(cometbft_consensus_latest_block_height[5m]) == 0
-      labels:
-        severity: critical
-      annotations:
-        description: 'Block production stalled. The node has not produced any blocks in the last 5 minutes.'
-
-    - alert: GethStalledBlocks
-      expr: increase(chain_head_block[5m]) == 0
       labels:
         severity: critical
       annotations:
