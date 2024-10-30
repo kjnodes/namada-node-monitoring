@@ -439,7 +439,7 @@
           },
           "disableTextWrap": false,
           "editorMode": "builder",
-          "expr": "namada_tm_blocksync_syncing{instance=\"$instance\", chain_id=\"$chain_id\"}",
+          "expr": "namada_tm_consensus_block_syncing{instance=\"$instance\", chain_id=\"$chain_id\"}",
           "fullMetaSearch": false,
           "includeNullMetadata": true,
           "instant": false,
