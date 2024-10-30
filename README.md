@@ -161,7 +161,7 @@ Follow these steps to access and use the Namada Node Dashboard in Grafana:
 
 ## Dashboard contents
 
-The Grafana dashboard is organized into three main sections:
+The Grafana dashboard is organized into two main sections:
 
 ### 1. kjnodes Namada Services
 
@@ -190,34 +190,6 @@ Network metrics like node peer connections and traffic.
 Displays blockchain metrics, including block time, block size, and details about the active validator set.
 
 ![image](images/dashboard-cometbft-blockchain-metrics.png)
-
-### 3. Geth Node Metrics
-
-Shows metrics related to the health, resource consumption, and activity of the Geth node.
-
-#### 3.1. System
-
-Shows system related metrics like geth binary version and system resource consumption.
-
-![image](images/dashboard-geth-system-metrics.png)
-
-#### 3.2. Network
-
-Network metrics like node peer connections and traffic.
-
-![image](images/dashboard-geth-network-metrics.png)
-
-#### 3.3. Blockchain
-
-Displays blockchain metrics like block and transaction processing.
-
-![image](images/dashboard-geth-blockchain-metrics.png)
-
-#### 3.4. Database
-
-Displays database metrics like block time, blck size and information active validator set.
-
-![image](images/dashboard-geth-database-metrics.png)
 
 ## Alerting and Notifications
 
