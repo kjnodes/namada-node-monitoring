@@ -76,7 +76,7 @@
       }
     ]
   },
-  "description": "This dashboard provides a comprehensive view of key metrics from Story Protocol node. It offers insights into node performance, health and activity.",
+  "description": "This dashboard provides a comprehensive view of key metrics from Namada Protocol node. It offers insights into node performance, health and activity.",
   "editable": true,
   "fiscalYearStartMonth": 0,
   "gnetId": 22099,
@@ -102,7 +102,7 @@
           "showLineNumbers": false,
           "showMiniMap": false
         },
-        "content": "<div style=\"text-align: center;\">\n    <br>\n    <img src=\"https://services.kjnodes.com/assets/images/logos/story.png\"><br><br>\n    <h1>Story Consensus and Execution Node Metrics</h1>\n    <h5>⚡️ Powered by <a href=\"https://kjnodes.com\">kjnodes</a></h5>\n</div>",
+        "content": "<div style=\"text-align: center;\">\n    <br>\n    <img src=\"https://services.kjnodes.com/assets/images/logos/namada.png\"><br><br>\n    <h1>Namada Consensus and Execution Node Metrics</h1>\n    <h5>⚡️ Powered by <a href=\"https://kjnodes.com\">kjnodes</a></h5>\n</div>",
         "mode": "markdown"
       },
       "pluginVersion": "11.2.0",
@@ -119,7 +119,7 @@
       },
       "id": 56,
       "panels": [],
-      "title": "kjnodes Story Services",
+      "title": "kjnodes Namada Services",
       "type": "row"
     },
     {
@@ -140,7 +140,7 @@
           "showLineNumbers": false,
           "showMiniMap": false
         },
-        "content": "<div style=\"text-align: center;\">\r\n    <br>\r\n    <h1><a href=\"https://services.kjnodes.com/testnet/story/\" target=\"_blank\">Story Services</a></h1>\r\n</div>",
+        "content": "<div style=\"text-align: center;\">\r\n    <br>\r\n    <h1><a href=\"https://services.kjnodes.com/testnet/namada/\" target=\"_blank\">Namada Services</a></h1>\r\n</div>",
         "mode": "markdown"
       },
       "pluginVersion": "11.2.0",
@@ -164,7 +164,7 @@
           "showLineNumbers": false,
           "showMiniMap": false
         },
-        "content": "<div style=\"text-align: center;\">\r\n    <br>\r\n    <h1><a href=\"https://services.kjnodes.com/testnet/story/installation/\" target=\"_blank\">Node Installation</a></h1>\r\n</div>",
+        "content": "<div style=\"text-align: center;\">\r\n    <br>\r\n    <h1><a href=\"https://services.kjnodes.com/testnet/namada/installation/\" target=\"_blank\">Node Installation</a></h1>\r\n</div>",
         "mode": "markdown"
       },
       "pluginVersion": "11.2.0",
@@ -188,7 +188,7 @@
           "showLineNumbers": false,
           "showMiniMap": false
         },
-        "content": "<div style=\"text-align: center;\">\r\n    <br>\r\n    <h1><a href=\"https://services.kjnodes.com/testnet/story/upgrade/\" target=\"_blank\">Node Upgrade</a></h1>\r\n</div>",
+        "content": "<div style=\"text-align: center;\">\r\n    <br>\r\n    <h1><a href=\"https://services.kjnodes.com/testnet/namada/upgrade/\" target=\"_blank\">Node Upgrade</a></h1>\r\n</div>",
         "mode": "markdown"
       },
       "pluginVersion": "11.2.0",
@@ -212,7 +212,7 @@
           "showLineNumbers": false,
           "showMiniMap": false
         },
-        "content": "<div style=\"text-align: center;\">\r\n    <br>\r\n    <h1><a href=\"https://services.kjnodes.com/testnet/story/state-sync/\" target=\"_blank\">State-Sync</a></h1>\r\n</div>",
+        "content": "<div style=\"text-align: center;\">\r\n    <br>\r\n    <h1><a href=\"https://services.kjnodes.com/testnet/namada/state-sync/\" target=\"_blank\">State-Sync</a></h1>\r\n</div>",
         "mode": "markdown"
       },
       "pluginVersion": "11.2.0",
@@ -236,7 +236,7 @@
           "showLineNumbers": false,
           "showMiniMap": false
         },
-        "content": "<div style=\"text-align: center;\">\r\n    <br>\r\n    <h1><a href=\"https://services.kjnodes.com/testnet/story/snapshot/\" target=\"_blank\">Snapshot</a></h1>\r\n</div>",
+        "content": "<div style=\"text-align: center;\">\r\n    <br>\r\n    <h1><a href=\"https://services.kjnodes.com/testnet/namada/snapshot/\" target=\"_blank\">Snapshot</a></h1>\r\n</div>",
         "mode": "markdown"
       },
       "pluginVersion": "11.2.0",
@@ -260,7 +260,7 @@
           "showLineNumbers": false,
           "showMiniMap": false
         },
-        "content": "<div style=\"text-align: center;\">\r\n    <br>\r\n    <h1><a href=\"https://services.kjnodes.com/testnet/story/snapshot-archive/\" target=\"_blank\">Snapshot (Archive)</a></h1>\r\n</div>",
+        "content": "<div style=\"text-align: center;\">\r\n    <br>\r\n    <h1><a href=\"https://services.kjnodes.com/testnet/namada/snapshot-archive/\" target=\"_blank\">Snapshot (Archive)</a></h1>\r\n</div>",
         "mode": "markdown"
       },
       "pluginVersion": "11.2.0",
@@ -284,7 +284,7 @@
           "showLineNumbers": false,
           "showMiniMap": false
         },
-        "content": "<div style=\"text-align: center;\">\r\n    <br>\r\n    <h1><a href=\"https://services.kjnodes.com/testnet/story/useful-commands/\" target=\"_blank\">Useful Commands</a></h1>\r\n</div>",
+        "content": "<div style=\"text-align: center;\">\r\n    <br>\r\n    <h1><a href=\"https://services.kjnodes.com/testnet/namada/useful-commands/\" target=\"_blank\">Useful Commands</a></h1>\r\n</div>",
         "mode": "markdown"
       },
       "pluginVersion": "11.2.0",
@@ -308,7 +308,7 @@
           "showLineNumbers": false,
           "showMiniMap": false
         },
-        "content": "<div style=\"text-align: center;\">\r\n    <br>\r\n    <h1><a href=\"https://services.kjnodes.com/testnet/story/public-rpc/\" target=\"_blank\">RPC Scanner</a></h1>\r\n</div>",
+        "content": "<div style=\"text-align: center;\">\r\n    <br>\r\n    <h1><a href=\"https://services.kjnodes.com/testnet/namada/public-rpc/\" target=\"_blank\">RPC Scanner</a></h1>\r\n</div>",
         "mode": "markdown"
       },
       "pluginVersion": "11.2.0",
@@ -324,7 +324,7 @@
       },
       "id": 9,
       "panels": [],
-      "title": "Story Node Metrics",
+      "title": "Namada Node Metrics",
       "type": "row"
     },
     {
@@ -345,7 +345,7 @@
           "showLineNumbers": false,
           "showMiniMap": false
         },
-        "content": "# Cometbft Node Metrics\n\n*Metrics collected from a Story Cometbft Prometheus endpoint.*\n",
+        "content": "# Cometbft Node Metrics\n\n*Metrics collected from a Namada Cometbft Prometheus endpoint.*\n",
         "mode": "markdown"
       },
       "pluginVersion": "11.2.0",
@@ -2564,7 +2564,7 @@
           "showLineNumbers": false,
           "showMiniMap": false
         },
-        "content": "# Geth Node Metrics\n\n*Metrics collected from a Story Geth Prometheus endpoint.*\n",
+        "content": "# Geth Node Metrics\n\n*Metrics collected from a Namada Geth Prometheus endpoint.*\n",
         "mode": "markdown"
       },
       "pluginVersion": "11.2.0",
