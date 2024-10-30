@@ -40,7 +40,7 @@
           "showLineNumbers": false,
           "showMiniMap": false
         },
-        "content": "<div style=\"text-align: center;\">\n    <br>\n    <img src=\"https://services.kjnodes.com/assets/images/logos/namada.png\"><br><br>\n    <h1>Namada Consensus and Execution Node Metrics</h1>\n    <h5>⚡️ Powered by <a href=\"https://kjnodes.com\">kjnodes</a></h5>\n</div>",
+        "content": "<div style=\"text-align: center;\">\n    <br>\n    <img src=\"https://services.kjnodes.com/assets/images/logos/namada.png\"><br><br>\n    <h1>Namada Node Dashboard</h1>\n    <h5>⚡️ Powered by <a href=\"https://kjnodes.com\">kjnodes</a></h5>\n</div>",
         "mode": "markdown"
       },
       "pluginVersion": "11.3.0",
